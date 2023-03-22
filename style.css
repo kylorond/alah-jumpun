@@ -95,6 +95,7 @@ input:valid ~ label {
 
 .forget-password label a:hover {
     text-decoration: underline;
+    color: pink;
 }
 
 button {
@@ -107,6 +108,12 @@ button {
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
+}
+
+button:hover {
+    background: blue;
+    color: white;
+    transition: ease-in .3s;
 }
 
 .register {
